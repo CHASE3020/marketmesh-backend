@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="MarketMesh preview">
+  <defs>
+    <linearGradient id="mmBanner" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#021514"/>
+      <stop offset="0.55" stop-color="#042F2E"/>
+      <stop offset="1" stop-color="#134E4A"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#mmBanner)"/>
+  <g stroke="#14B8A6" stroke-width="4" fill="none" opacity="0.30">
+    <path d="M60 80 L240 40 L420 110 L600 60"/>
+    <path d="M60 80 L140 260 L60 440"/>
+    <path d="M420 110 L340 300 L460 480 L300 620"/>
+    <path d="M140 260 L340 300"/>
+    <path d="M600 60 L660 260 L560 440"/>
+    <path d="M1100 840 L1340 540 L1500 460"/>
+    <path d="M1340 540 L1380 700 L1540 800"/>
+    <path d="M1200 760 L1380 700"/>
+  </g>
+  <g fill="#5EEAD4" opacity="0.5">
+    <circle cx="60" cy="80" r="8"/>
+    <circle cx="240" cy="40" r="8"/>
+    <circle cx="420" cy="110" r="10"/>
+    <circle cx="600" cy="60" r="8"/>
+    <circle cx="140" cy="260" r="8"/>
+    <circle cx="340" cy="300" r="10"/>
+    <circle cx="460" cy="480" r="8"/>
+    <circle cx="660" cy="260" r="8"/>
+    <circle cx="560" cy="440" r="8"/>
+    <circle cx="1380" cy="700" r="10"/>
+    <circle cx="1340" cy="540" r="8"/>
+    <circle cx="1500" cy="460" r="8"/>
+    <circle cx="1540" cy="800" r="8"/>
+    <circle cx="1100" cy="840" r="8"/>
+  </g>
+  <g transform="translate(800 250)">
+    <g stroke="#5EEAD4" stroke-width="6" fill="none" stroke-linecap="round">
+      <path d="M-110 0 L0 -70 L110 0 L0 70 Z"/>
+      <path d="M0 -70 L0 70 M-110 0 L110 0"/>
+    </g>
+    <g fill="#FFFFFF">
+      <circle cx="-110" cy="0" r="13"/>
+      <circle cx="0" cy="-70" r="13"/>
+      <circle cx="110" cy="0" r="13"/>
+      <circle cx="0" cy="70" r="13"/>
+    </g>
+    <circle cx="0" cy="0" r="24" fill="#2DD4BF" stroke="#FFFFFF" stroke-width="7"/>
+  </g>
+  <g font-family="Segoe UI, Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="800" y="500" font-size="118" font-weight="700" fill="#ECFEFF">MarketMesh</text>
+    <text x="800" y="580" font-size="44" font-weight="600" fill="#5EEAD4" letter-spacing="8">Stellar • Soroban • Open Source</text>
+    <text x="800" y="660" font-size="34" fill="#A7F3D0" opacity="0.9">backend · off-chain indexing, API and operational services</text>
+  </g>
+</svg>
